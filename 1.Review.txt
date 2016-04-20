@@ -1,0 +1,4 @@
+D. Only input wasn't introduced in html5 - it was in html4
+A. hgroup can contain h1-h6
+C. article would be used to organise page content
+A. the div could be used to structure content

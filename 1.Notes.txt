@@ -1,0 +1,49 @@
+Part 1 - HTML5 Semantics
+========================
+Use header and footer elements to contain top/bottom content
+
+The nav element can be used for navigation
+
+The hgroup element can contain headers
+
+Articles group independent sections of content like individual blog posts
+
+Sections denote different parts of a page and can be grouped under articles
+
+Asides can be used to show relevant information, but not directly related to the current section
+
+figure and figcaption can be used to show figures and related captions
+
+A progress element can have a value and max attributes and is used to show progress
+Omitting the value from a progress can indicate an indeterminate progress bar
+
+The mark element is used to mark specific content
+
+div element is still in use!
+
+html5 can affect both seo and screen readers
+
+Part 2 - DOM Manipulation
+=========================
+
+We can access the dom with the following functions of document:
+
+getElementById
+getElementsByClassName
+getElementsByTagName
+querySelector
+querySelectorAll
+
+The following functions of a dom node
+
+childNodes
+firstChild
+lastChild
+hasChildNodes
+
+After adding objects, we can remove them with:
+
+removeChild
+removeNode
+
+replaceNode
