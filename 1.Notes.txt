@@ -62,3 +62,27 @@ volume
 currentTime
 
 The <audio> element has similar functionality
+
+The <canvas> element allows 2d drawings at a pixel-level, the getContext() method of a canvas object
+exposes the following methods:
+
+beginPath
+moveTo
+lineTo
+stroke
+
+There are also curve functions:
+
+arc
+quadraticCurveTo
+bezierCurveTo
+
+You can call beginPath to start a new line or just closePath to close the last one.
+
+There is also a rect method to draw rectangles and fill/gradient methods to add fills to paths:
+
+rect()
+fillRect()
+fill()
+createLinearGradient
+createRadialGradient
