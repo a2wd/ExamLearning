@@ -1,69 +1,88 @@
-<html>
+﻿<html>
 <head>
-  <title></title>
-  <meta charset="utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
 </head>
 <body>
-  <div id="outerDiv">
-    <p class='mainPara'>Main Paragraph</p>
-    <ul>
-      <li>First List Item</li>
-      <li>Second List Item</li>
-      <li>Third List Item</li>
-      <li>Fourth List Item</li>
-    </ul>
-    <div id="innerDiv">
-      <p class='subPara' id='P1'>Paragraph 1</p>
-      <p class='subPara' id='P2'>Paragraph 2</p>
-      <p class='subPara' id='P3'>Paragraph 3</p>
-      <p class='subPara' id='P4'>Paragraph 4</p>
+    <div id="outerDiv">
+        <p class='mainPara'>Main Paragraph</p>
+        <ul>
+            <li>First List Item</li>
+            <li>Second List Item</li>
+            <li>Third List Item</li>
+            <li>Fourth List Item</li>
+        </ul>
+        <div id="innerDiv">
+            <p class='subPara' id='P1'>Paragraph 1</p>
+            <p class='subPara' id='P2'>Paragraph 2</p>
+            <p class='subPara' id='P3'>Paragraph 3</p>
+            <p class='subPara' id='P4'>Paragraph 4</p>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    Row 1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Row 2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Row 3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Row 4
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Row 5
+                </td>
+            </tr>
+        </table>
+        <input type="text" /><input type="submit" value="Submit" />
     </div>
-    <table>
-      <tr>
-        <td>Row 1
-        </td>
-      </tr>
-      <tr>
-        <td>Row 2
-        </td>
-      </tr>
-      <tr>
-        <td>Row 3
-        </td>
-      </tr>
-      <tr>
-        <td>Row 4
-        </td>
-      </tr>
-      <tr>
-        <td>Row 5
-        </td>
-      </tr>
-    </table>
-    <input type="text"/><input type="submit" value="Submit"/>
-  </div>
 
-  <script>
-  window.onload = function(){
-    var elements = []
-    elements.push(document.getElementById("outerDiv"))
-    elements.push(document.getElementsByTagName("p"))
-    elements.push(document.getElementsByClassName("subPara"))
-    elements.push(document.querySelector("tr > td"))
-    elements.push(document.querySelectorAll("td"))
+    <script>
+        window.onload = function () {
+            var elements = []
+            elements.push(document.getElementById("outerDiv"))
+            elements.push(document.getElementsByTagName("p"))
+            elements.push(document.getElementsByClassName("subPara"))
+            elements.push(document.querySelector("tr > td"))
+            elements.push(document.querySelectorAll("td"))
 
-    for(var i = 0; i < elements.length; i++) {
-      console.log(elements[i])
-    }
+            for (var i = 0; i < elements.length; i++) {
+                console.log(elements[i])
+            }
 
-    var newElement = document.createElement("article")
-    newElement.innerHTML = "<p>an article</p>"
-    var bodyRef = document.querySelector("#innerDiv")
-    bodyRef.appendChild(newElement)
+            var newElement = document.createElement("article")
+            newElement.innerHTML = "<p>an article</p>"
+            var bodyRef = document.querySelector("#innerDiv")
+            bodyRef.appendChild(newElement)
 
-    //Insert before:
-    document.getElementById("outerDiv").insertBefore(newElement, bodyRef)
-  }
-  </script>
+            //Insert before:
+            document.getElementById("outerDiv").insertBefore(newElement, bodyRef)
+
+            //Transform all paragraphs to links:
+            var innerDiv = document.getElementById("innerDiv")
+            var newDiv = document.createElement("div")
+            for (var i = 0; i < innerDiv.childNodes.length; i++) {
+                var anchor = newDiv.appendChild(document.createElement("a"))
+                anchor.setAttribute("href", "http://www.a2wd.com")
+                anchor.text = innerDiv.childNodes[i].textContent;
+                newDiv.appendChild(document.createElement("br"))
+            }
+            //IE Properietary way:
+            //innerDiv.replaceNode(newDiv)
+            //Cross-browser solution
+            innerDiv.parentNode.replaceChild(newDiv, innerDiv)
+        }
+    </script>
 </body>
 </html>

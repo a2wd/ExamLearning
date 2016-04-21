@@ -45,5 +45,20 @@ After adding objects, we can remove them with:
 
 removeChild
 removeNode
+replaceNode //IE Only
+replaceChild //as in node.replaceChild(newChild, oldChild)
 
-replaceNode
+
+Multimedia
+----------
+The <video> tag allows us to show videos and can have various source parameters
+Allowed attributes include autoplay, controls, loop and poster
+
+A reference to the video object in javascript can be used to play, pause and scrub the file
+
+play()
+pause()
+volume
+currentTime
+
+The <audio> element has similar functionality
