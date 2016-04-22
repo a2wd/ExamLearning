@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="drawingSurface" width="600" height="400">
+        You don't appear to have a HTML5/Canvas compatible browser
+    </canvas>
+
+    <svg>
+        <circle id="Circle" cx="50" cy="50" r="50" fill="green" onmouseover="Red(evt)" onmouseout="Blue(evt)" />
+    </svg>
+    <svg>
+        <rect fill="black" height="200" id="lightStandard" width="60" x="100" y="100"></rect>
+        <circle cx="129" cy="145" fill="red" id="redLight" r="25"></circle>
+        <circle cx="129" cy="205" fill="yellow" id="amberLight" r="25"></circle>
+        <circle cx="129" cy="265" fill="green" id="greenLight" r="25"></circle>
+    </svg>
+
+    <script>
+        function Red(e) {
+            var circle = e.target
+            circle.setAttribute("style", "fill: red")
+        }
+        function Blue(e) {
+            var circle = e.target
+            circle.setAttribute("style", "fill: blue")
+        }
+
+        window.onload = function () {
+            var drawingSurface = document.getElementById("drawingSurface")
+            var ctxt = drawingSurface.getContext("2d")
+
+            var img = new Image()
+            img.src = "orange.jpg"
+            img.onload = function () {
+                ctxt.drawImage(img, 0, 0, img.width * 0.5, img.height * 0.5)
+                ctxt.stroke()
+            }
+            
+            ctxt.font = "24px arial";
+            ctxt.strokeStyle = "blue"
+            ctxt.textAlign = "center"
+            ctxt.strokeText("Hello canvas", 300, 300)
+            ctxt.fillStyle = "green"
+            ctxt.fillText("Hello canvas", 350, 350)
+        }
+    </script>
+</body>
+</html>

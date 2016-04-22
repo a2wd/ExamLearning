@@ -17,9 +17,10 @@
     <Content Include="$(MSBuildThisFileDirectory)1.Listing-1-2.html" />
     <Content Include="$(MSBuildThisFileDirectory)1.Multimedia-2.html" />
     <Content Include="$(MSBuildThisFileDirectory)1.Multimedia.html" />
-    <Content Include="$(MSBuildThisFileDirectory)1.Notes.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)1.Notes.md" />
     <Content Include="$(MSBuildThisFileDirectory)1.Review.txt" />
     <Content Include="$(MSBuildThisFileDirectory)1.ThoughtExperiment-1.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)1.Multimedia-3.html" />
     <Content Include="$(MSBuildThisFileDirectory)orange.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)samplevideo.mp4" />
   </ItemGroup>
