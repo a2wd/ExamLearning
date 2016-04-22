@@ -1,0 +1,88 @@
+Part 1 - HTML5 Semantics
+========================
+Use header and footer elements to contain top/bottom content
+
+The nav element can be used for navigation
+
+The hgroup element can contain headers
+
+Articles group independent sections of content like individual blog posts
+
+Sections denote different parts of a page and can be grouped under articles
+
+Asides can be used to show relevant information, but not directly related to the current section
+
+figure and figcaption can be used to show figures and related captions
+
+A progress element can have a value and max attributes and is used to show progress
+Omitting the value from a progress can indicate an indeterminate progress bar
+
+The mark element is used to mark specific content
+
+div element is still in use!
+
+html5 can affect both seo and screen readers
+
+Part 2 - DOM Manipulation
+=========================
+
+We can access the dom with the following functions of document:
+
+getElementById
+getElementsByClassName
+getElementsByTagName
+querySelector
+querySelectorAll
+
+The following functions of a dom node
+
+childNodes
+firstChild
+lastChild
+hasChildNodes
+
+After adding objects, we can remove them with:
+
+removeChild
+removeNode
+replaceNode //IE Only
+replaceChild //as in node.replaceChild(newChild, oldChild)
+
+
+Multimedia
+----------
+The <video> tag allows us to show videos and can have various source parameters
+Allowed attributes include autoplay, controls, loop and poster
+
+A reference to the video object in javascript can be used to play, pause and scrub the file
+
+play()
+pause()
+volume
+currentTime
+
+The <audio> element has similar functionality
+
+The <canvas> element allows 2d drawings at a pixel-level, the getContext() method of a canvas object
+exposes the following methods:
+
+beginPath
+moveTo
+lineTo
+stroke
+
+There are also curve functions:
+
+arc
+quadraticCurveTo
+bezierCurveTo
+
+You can call beginPath to start a new line or just closePath to close the last one.
+
+There is also a rect method to draw rectangles and fill/gradient methods to add fills to paths:
+
+rect()
+fillRect()
+fill()
+createLinearGradient
+createRadialGradient

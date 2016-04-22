@@ -1,0 +1,5 @@
+The table could be changed for a div, the first row as a header
+The second row could be a nav and the third row could be an article
+The moreinfo div could be an aside and the profile could be either an
+aside or a section
+The last tr could be a footer

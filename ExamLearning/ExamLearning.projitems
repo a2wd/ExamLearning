@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>1666495b-248d-42cf-8096-5ea045b09f2a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ExamLearning</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)samplevideo.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)1.Figure-1-9.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.Listing-1-1.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.Listing-1-2.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.Multimedia-2.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.Multimedia.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.Notes.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)1.Review.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)1.ThoughtExperiment-1.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)orange.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)samplevideo.mp4" />
+  </ItemGroup>
+</Project>
