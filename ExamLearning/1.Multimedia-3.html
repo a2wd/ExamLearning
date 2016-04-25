@@ -18,11 +18,24 @@
     <svg>
         <circle id="Circle" cx="50" cy="50" r="50" fill="green" onmouseover="Red(evt)" onmouseout="Blue(evt)" />
     </svg>
-    <svg>
+    <svg height="300" width="160">
         <rect fill="black" height="200" id="lightStandard" width="60" x="100" y="100"></rect>
         <circle cx="129" cy="145" fill="red" id="redLight" r="25"></circle>
         <circle cx="129" cy="205" fill="yellow" id="amberLight" r="25"></circle>
         <circle cx="129" cy="265" fill="green" id="greenLight" r="25"></circle>
+    </svg>
+    <svg width="400" height="400">
+        <polygon points="10,15 30,35 10,85 100,85, 70,35,100,15" fill="purple" />
+        <polyline points="10,150 30,170 50,132 62,196 78,165 96,170" style="stroke:orange; fill:none; stroke-width:5;" />
+        <line x1="150" y1="100" x2="150" y2="150" style="stroke:blue;stroke-width:3" />
+        <ellipse cx="250" cy="150" rx="30" ry="55" fill="green" />
+        <text x="10" y="10" style="stroke: black;stroke-width:1;">
+            Examples of SVG Shapes and Text
+        </text>
+    </svg>
+
+    <svg id="jpgVG">
+        <image xlink:href="orange.jpg" width="250" height="100"></image>
     </svg>
 
     <script>

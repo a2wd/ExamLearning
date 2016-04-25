@@ -1,0 +1,11 @@
+﻿Creating a game
+
+A ball could be animated from one side of the screen to the other with a javascript loop, in canvas by
+refreshing the drawing surface before rendering each frame, a setTimeout loop could be used to manage 
+the frames and a seperate object could be used to keep track of the current position of the ball.
+
+A similar approach could be taken with SVG, though the position of the ball vector could be tracked via
+an object with a DOM reference to the image.
+
+In terms of performance, if many balls need to be animated, the former canvas approach would be better
+as SVG would not be as performant as the number of items animated increases greatly.

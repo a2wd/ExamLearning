@@ -1,4 +1,15 @@
+Part 1
+
 D. Only input wasn't introduced in html5 - it was in html4
 A. hgroup can contain h1-h6
 C. article would be used to organise page content
 A. the div could be used to structure content
+
+Part 2
+
+C. getElementByClassName is not a dom selector 
+A. document.getElementbyId("myDog") would retrieve an image element with the ID myDog
+B. to hide a dom element and retrieve it later, you must keep a reference to the removed node
+C. To allow different browsers to play HTML5 video, use the <source> elememt to specify different files
+C. beginPath is used on a canvas drawing context to begin drawing at a new point
+C. When performace is critical for an HTML5 app, use <canvas> and javascript to create graphics
