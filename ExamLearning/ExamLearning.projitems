@@ -9,18 +9,19 @@
     <Import_RootNamespace>ExamLearning</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)1.7.ProgrammaticStyling.html" />
     <None Include="$(MSBuildThisFileDirectory)samplevideo.ogg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)1.Figure-1-9.html" />
-    <Content Include="$(MSBuildThisFileDirectory)1.Listing-1-1.html" />
-    <Content Include="$(MSBuildThisFileDirectory)1.Listing-1-2.html" />
-    <Content Include="$(MSBuildThisFileDirectory)1.Multimedia-2.html" />
-    <Content Include="$(MSBuildThisFileDirectory)1.Multimedia.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.3.Figure-1-9.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.2.Listing-1-1.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.4.Listing-1-2.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.5.Multimedia-2.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.1.Multimedia.html" />
     <Content Include="$(MSBuildThisFileDirectory)1.Notes.md" />
     <Content Include="$(MSBuildThisFileDirectory)1.Review.txt" />
     <Content Include="$(MSBuildThisFileDirectory)1.ThoughtExperiment-1.txt" />
-    <Content Include="$(MSBuildThisFileDirectory)1.Multimedia-3.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.6.Multimedia-3.html" />
     <Content Include="$(MSBuildThisFileDirectory)1.ThoughtExperiment-2.txt" />
     <Content Include="$(MSBuildThisFileDirectory)orange.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)samplevideo.mp4" />
