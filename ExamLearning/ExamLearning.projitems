@@ -19,6 +19,7 @@
     <Content Include="$(MSBuildThisFileDirectory)1.4.Listing-1-2.html" />
     <Content Include="$(MSBuildThisFileDirectory)1.5.Multimedia-2.html" />
     <Content Include="$(MSBuildThisFileDirectory)1.1.Multimedia.html" />
+    <Content Include="$(MSBuildThisFileDirectory)1.10.ObjectScope.html" />
     <Content Include="$(MSBuildThisFileDirectory)1.8.StorageApis.html" />
     <Content Include="$(MSBuildThisFileDirectory)1.9.GeoLocation.html" />
     <Content Include="$(MSBuildThisFileDirectory)1.Notes.md" />
@@ -28,6 +29,7 @@
     <Content Include="$(MSBuildThisFileDirectory)1.ThoughtExperiment-2.txt" />
     <Content Include="$(MSBuildThisFileDirectory)1.ThoughtExperiment-3.txt" />
     <Content Include="$(MSBuildThisFileDirectory)1.ThoughtExperiment-4.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)1.ThoughtExperiment-5.txt" />
     <Content Include="$(MSBuildThisFileDirectory)orange.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)samplevideo.mp4" />
   </ItemGroup>

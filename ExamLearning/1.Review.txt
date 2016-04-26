@@ -27,3 +27,9 @@ C. Specifying the manifest attribute on the HTML element designates a page as av
 B. Session is not a section of the AppCache manifest
 B. onupdateready is fired when the cache download is completed
 B. the maximumAge property of the PositionOptions object can be set to allow cached geolocation data
+
+Part 5
+
+B. the scope of a variable depends on where inside the script it's declared
+B. avoid creating custom JS objects in the global namespace to avoid a naming conflict
+C. the this keyword in an event handler provides a reference to the object
