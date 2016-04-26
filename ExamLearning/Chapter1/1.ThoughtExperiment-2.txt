@@ -9,3 +9,5 @@ an object with a DOM reference to the image.
 
 In terms of performance, if many balls need to be animated, the former canvas approach would be better
 as SVG would not be as performant as the number of items animated increases greatly.
+
+//Solutions point to canvas as more performant

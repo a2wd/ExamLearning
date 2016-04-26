@@ -30,3 +30,5 @@ yes/no radio buttons, the following JavaScript could be used to dynamically show
 		etc.
 	}
 </script>
+
+// Solutions follows similar thinking inc. display: none; but suggests subscribing to onchange event

@@ -1,0 +1,8 @@
+﻿It would be possible to extend native objects by using the prototype method, as per:
+
+Array.prototype.alertArray() {
+	alert(this.toString());
+}
+
+// Solutions confirms above and extends with warning about type safety, such as in
+// implementing sum in Array which could contain numbers but could also contain strings

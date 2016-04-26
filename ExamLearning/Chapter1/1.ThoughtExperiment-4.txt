@@ -1,3 +1,5 @@
 ﻿An application that measures distance travelled could use the Geolocation API and WebStorage api to track the
 route travelled by setting a watchPosition() event and logging recieved position.coords.latitude/longitude
 to key/value pairs in the localStorage, syncing to a server when a data connection is available.
+
+//Solutions follows same idea and provides implementation code

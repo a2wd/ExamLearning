@@ -1,1 +1,0 @@
-﻿It is possible to namespace a library (using a unique name such as the domain name) to avoid namespace collisions
