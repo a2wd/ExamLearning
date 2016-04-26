@@ -19,3 +19,11 @@ Part 3
 B. Aboslute positioning positions an object relative to the top-left corner of it's parent
 D. Scale allows you to change the size of an element
 D. Visibility: hidden preserves the layout of a page while hiding a dom element
+
+Part 4
+
+C. sessionStorage is cleared after the user closes the browser
+C. Specifying the manifest attribute on the HTML element designates a page as available offline
+B. Session is not a section of the AppCache manifest
+B. onupdateready is fired when the cache download is completed
+B. the maximumAge property of the PositionOptions object can be set to allow cached geolocation data

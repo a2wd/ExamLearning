@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en" manifest="1.8.webApp.appcache">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        section {
+            margin-top: 15px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            LoadFromStorage();
+
+            document.getElementById("btnAdd").onclick = function () {
+                localStorage.setItem(document.getElementById("toStorageKey").value,
+                    document.getElementById("toStorageValue").value);
+                LoadFromStorage();
+            }
+            document.getElementById("btnRemove").onclick = function () {
+                localStorage.removeItem(document.getElementById("toStorageKey").value);
+                LoadFromStorage();
+            }
+            document.getElementById("btnClear").onclick = function () {
+                localStorage.clear();
+                LoadFromStorage();
+            }
+            function LoadFromStorage() {
+                var storageDiv = document.getElementById("storage");
+                var tbl = document.createElement("table");
+                tbl.id = "storageTable";
+                if (localStorage.length > 0) {
+                    for (var i = 0; i < localStorage.length; i++) {
+                        var row = document.createElement("tr");
+                        var key = document.createElement("td");
+                        var val = document.createElement("td");
+                        key.innerText = localStorage.key(i);
+                        val.innerText = localStorage.getItem(key.innerText);
+                        row.appendChild(key);
+                        row.appendChild(val);
+                        tbl.appendChild(row);
+                    }
+                } else {
+                    var row = document.createElement("tr");
+                    var col = document.createElement("td");
+                    col.innerText = "No data in local storage.";
+                    row.appendChild(col);
+                    tbl.appendChild(row);
+                }
+                if (document.getElementById("storageTable")) {
+                    var storageTable = document.getElementById("storageTable");
+                    storageTable.parentElement.replaceChild(tbl, storageTable);
+                } else {
+                    storageDiv.appendChild(tbl);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <section>
+        Key: <input id="toStorageKey" type="text"> Value: <input id="toStorageValue" type="text"><br>
+    </section>
+    Implement and manipulate document structures and objects
+    <section>
+        <button id="btnAdd" type="button">Add To Storage</button> <button id="btnRemove" type="button">
+            Remove from Storage
+        </button> <button id="btnClear" type="button">
+            Clear Storage
+        </button>
+    </section>
+    <div id="storage">
+        <p>Current Storage Contents</p>
+    </div>
+</body>
+</html>
