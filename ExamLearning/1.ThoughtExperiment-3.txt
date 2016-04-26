@@ -1,0 +1,32 @@
+﻿Given a series of questions a user must answer, semantically coded up as a series of <div> elements, with
+yes/no radio buttons, the following JavaScript could be used to dynamically show/hide the questions as needed:
+
+<style>
+	div {
+		display: none;
+	}
+	div:first-child {
+		display: block;
+	}
+</style>
+<script>
+	window.onload = function() {
+		var q1 = document.getElementById("Question1")
+		var q2 = document.getElementById("Question2")
+		var q3 = document.getElementById("Question3")
+
+		var q1Value = q1.querySelector("input[type='checkbox']:checked").value
+
+		if(q1Value == "yes") {
+			q2.style.display = "block";
+			q3.style.display = "none";
+		}
+		else {
+			q2.style.display = "none";
+			q3.style.display = "block";
+		}
+
+		...
+		etc.
+	}
+</script>

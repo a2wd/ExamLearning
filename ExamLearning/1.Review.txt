@@ -13,3 +13,9 @@ B. to hide a dom element and retrieve it later, you must keep a reference to the
 C. To allow different browsers to play HTML5 video, use the <source> elememt to specify different files
 C. beginPath is used on a canvas drawing context to begin drawing at a new point
 C. When performace is critical for an HTML5 app, use <canvas> and javascript to create graphics
+
+Part 3
+
+B. Aboslute positioning positions an object relative to the top-left corner of it's parent
+D. Scale allows you to change the size of an element
+D. Visibility: hidden preserves the layout of a page while hiding a dom element
