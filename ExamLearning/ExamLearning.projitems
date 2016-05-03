@@ -13,6 +13,7 @@
     <None Include="$(MSBuildThisFileDirectory)Chapter1\1.8.webApp.appcache" />
     <None Include="$(MSBuildThisFileDirectory)Chapter1\samplevideo.ogg" />
     <None Include="$(MSBuildThisFileDirectory)Chapter2\2.Notes.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter2\2.Review.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Chapter1\1.1.Multimedia.html" />
