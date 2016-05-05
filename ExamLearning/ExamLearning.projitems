@@ -12,8 +12,8 @@
     <None Include="$(MSBuildThisFileDirectory)Chapter1\1.7.ProgrammaticStyling.html" />
     <None Include="$(MSBuildThisFileDirectory)Chapter1\1.8.webApp.appcache" />
     <None Include="$(MSBuildThisFileDirectory)Chapter1\samplevideo.ogg" />
-    <None Include="$(MSBuildThisFileDirectory)Chapter2\2.Notes.md" />
-    <None Include="$(MSBuildThisFileDirectory)Chapter2\2.Review.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter2\2.1.Notes.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter2\2.2.Review.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Chapter1\1.1.Multimedia.html" />
@@ -35,5 +35,6 @@
     <Content Include="$(MSBuildThisFileDirectory)Chapter1\1.ThoughtExperiment-6.txt" />
     <Content Include="$(MSBuildThisFileDirectory)Chapter1\orange.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Chapter1\samplevideo.mp4" />
+    <Content Include="$(MSBuildThisFileDirectory)Chapter2\2.3.Listing-1.html" />
   </ItemGroup>
 </Project>
