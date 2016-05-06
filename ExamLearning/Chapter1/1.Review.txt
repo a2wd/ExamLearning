@@ -1,41 +1,41 @@
 Part 1
 
-D. Only input wasn't introduced in html5 - it was in html4 ?
-A. hgroup can contain h1-h6 ?
-C. article would be used to organise page content ?
-A. the div could be used to structure content ? Divs flow left to right - table would achieve the layout with rows/columns
+D. Only input wasn't introduced in html5 - it was in html4
+A. hgroup can contain h1-h6
+C. article would be used to organise page content
+A. the div could be used to structure content Divs flow left to right - table would achieve the layout with rows/columns
 
 Part 2
 
-C. getElementByClassName is not a dom selector ? queryAll isn't available in the DOM (errata: wrong method name)
-A. document.getElementbyId("myDog") would retrieve an image element with the ID myDog ?
-B. to hide a dom element and retrieve it later, you must keep a reference to the removed node ?
-C. To allow different browsers to play HTML5 video, use the <source> elememt to specify different files ?
-C. beginPath is used on a canvas drawing context to begin drawing at a new point ?
-C. When performace is critical for an HTML5 app, use <canvas> and javascript to create graphics ?
+C. getElementByClassName is not a dom selector queryAll isn't available in the DOM (errata: wrong method name)
+A. document.getElementbyId("myDog") would retrieve an image element with the ID myDog
+B. to hide a dom element and retrieve it later, you must keep a reference to the removed node
+C. To allow different browsers to play HTML5 video, use the <source> elememt to specify different files
+C. beginPath is used on a canvas drawing context to begin drawing at a new point
+C. When performace is critical for an HTML5 app, use <canvas> and javascript to create graphics
 
 Part 3
 
-B. Aboslute positioning positions an object relative to the top-left corner of it's parent ?
-D. Scale allows you to change the size of an element ?
-D. Visibility: hidden preserves the layout of a page while hiding a dom element ?
+B. Aboslute positioning positions an object relative to the top-left corner of it's parent
+D. Scale allows you to change the size of an element
+D. Visibility: hidden preserves the layout of a page while hiding a dom element
 
 Part 4
 
-C. sessionStorage is cleared after the user closes the browser ?
-C. Specifying the manifest attribute on the HTML element designates a page as available offline ?
-B. Session is not a section of the AppCache manifest ?
-B. onupdateready is fired when the cache download is completed ? onupdateready is fired when intems are newly downloadded - we needed A. oncached event
-B. the maximumAge property of the PositionOptions object can be set to allow cached geolocation data ?
+C. sessionStorage is cleared after the user closes the browser
+C. Specifying the manifest attribute on the HTML element designates a page as available offline
+B. Session is not a section of the AppCache manifest
+B. onupdateready is fired when the cache download is completed
+B. the maximumAge property of the PositionOptions object can be set to allow cached geolocation data
 
 Part 5
 
-B. the scope of a variable depends on where inside the script it's declared ?
-B. avoid creating custom JS objects in the global namespace to avoid a naming conflict ?
-C. the this keyword in an event handler provides a reference to the object ?
+B. the scope of a variable depends on where inside the script it's declared
+B. avoid creating custom JS objects in the global namespace to avoid a naming conflict
+C. the this keyword in an event handler provides a reference to the object
 
 Part 6
 
-D. Person is not a native javascript object ?
-B. var book = {Title: “My book about things”, Author: “Jane Doe”, Pages: 400}; is the correct way to create a custom book object ?
-D. JavaScript inheritance is accomplished with Prototypes ?
+D. Person is not a native javascript object
+B. var book = {Title: “My book about things”, Author: “Jane Doe”, Pages: 400}; is the correct way to create a custom book object
+D. JavaScript inheritance is accomplished with Prototypes
