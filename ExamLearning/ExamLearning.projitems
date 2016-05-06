@@ -36,5 +36,6 @@
     <Content Include="$(MSBuildThisFileDirectory)Chapter1\orange.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Chapter1\samplevideo.mp4" />
     <Content Include="$(MSBuildThisFileDirectory)Chapter2\2.3.Listing-1.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Chapter2\2.4.Listing-2.html" />
   </ItemGroup>
 </Project>
