@@ -18,6 +18,8 @@
     <None Include="$(MSBuildThisFileDirectory)Chapter2\2.7.CalculateWorker.js" />
     <None Include="$(MSBuildThisFileDirectory)Chapter3\3.2.Review.md" />
     <None Include="$(MSBuildThisFileDirectory)Chapter3\3.1.Notes.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter4\4.1.Notes.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter4\4.2.Review.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Chapter1\1.1.Multimedia.html" />
