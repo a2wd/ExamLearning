@@ -14,6 +14,8 @@
     <None Include="$(MSBuildThisFileDirectory)Chapter1\samplevideo.ogg" />
     <None Include="$(MSBuildThisFileDirectory)Chapter2\2.1.Notes.md" />
     <None Include="$(MSBuildThisFileDirectory)Chapter2\2.2.Review.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter2\2.5.Listing-3.html" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter2\2.7.CalculateWorker.js" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Chapter1\1.1.Multimedia.html" />
@@ -37,5 +39,6 @@
     <Content Include="$(MSBuildThisFileDirectory)Chapter1\samplevideo.mp4" />
     <Content Include="$(MSBuildThisFileDirectory)Chapter2\2.3.Listing-1.html" />
     <Content Include="$(MSBuildThisFileDirectory)Chapter2\2.4.Listing-2.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Chapter2\2.6.Listing-4.html" />
   </ItemGroup>
 </Project>
