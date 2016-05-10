@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "70-480", "70-480\70-480.shproj", "{1666495B-248D-42CF-8096-5EA045B09F2A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "70-486", "70-486\70-486.shproj", "{3393F84C-8D9B-48A6-A3C6-EAF1F37C62BA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "70-487", "70-487\70-487.shproj", "{C6CA4648-DE13-446A-9678-BD7BA038E20A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		70-487\70-487.projitems*{c6ca4648-de13-446a-9678-bd7ba038e20a}*SharedItemsImports = 13
+		70-486\70-486.projitems*{3393f84c-8d9b-48a6-a3c6-eaf1f37c62ba}*SharedItemsImports = 13
+		70-480\70-480.projitems*{1666495b-248d-42cf-8096-5ea045b09f2a}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
