@@ -11,6 +11,8 @@
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)Chapter1\1.1.Notes.md" />
     <None Include="$(MSBuildThisFileDirectory)Chapter1\1.2.Review.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter2\2.1.Notes.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter2\2.2.Review.md" />
     <None Include="$(MSBuildThisFileDirectory)README.md" />
   </ItemGroup>
 </Project>
