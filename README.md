@@ -8,7 +8,7 @@ Now completed, some code listings and other HTML fragments from chapter 1, movin
 
 ## 70-486 ASP.NET MVC Web Applications
 
-In progress on chapter 1, covering architecture and fundamentals.
+Now completed, full chapter summaries, though study guide does not include material added after April 2013 so this is not covered.
 
 ## 70-487 Developing for Azure
 
