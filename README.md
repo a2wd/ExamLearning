@@ -12,4 +12,4 @@ Now completed, full chapter summaries, though study guide does not include mater
 
 ## 70-487 Developing for Azure
 
-In progress, covering all aspects of Azure. Per 70-486, new material added in 2013 marked as extra and noted alongside study guide material.
+In progress, covering all aspects of Azure. Per 70-486, new material added in 2014 marked as extra and noted alongside study guide material.
