@@ -18,6 +18,12 @@
     <None Include="$(MSBuildThisFileDirectory)Chapter3\3.1.Notes.md" />
     <None Include="$(MSBuildThisFileDirectory)Chapter3\3.2.Review.md" />
     <None Include="$(MSBuildThisFileDirectory)Chapter3\3.3.Changes.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter4\4.1.Notes.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter4\4.2.Review.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter4\4.3.Changes.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter5\5.1.Notes.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter5\5.2.Review.md" />
+    <None Include="$(MSBuildThisFileDirectory)Chapter5\5.3.Changes.md" />
     <None Include="$(MSBuildThisFileDirectory)README.md" />
   </ItemGroup>
 </Project>
