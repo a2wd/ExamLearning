@@ -1,4 +1,4 @@
-﻿# Exam Learning
+# Exam Learning
 
 Notes & solutions to problems posed by the exam reference study books for Microsoft exams on the **Microsoft Certified Solutions Developer (MCSD)** track.
 
@@ -12,4 +12,4 @@ Now completed, full chapter summaries, though study guide does not include mater
 
 ## 70-487 Developing for Azure
 
-In progress, covering all aspects of Azure. Per 70-486, new material added in 2014 marked as extra and noted alongside study guide material.
+Now completed, covering all aspects of Azure. Per previous convention in the notes for 70-486, new material added in 2014 marked as extra and noted alongside study guide material.
